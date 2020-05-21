@@ -9,8 +9,6 @@ Backend
 
 > docker-compose up -d
 
-(Caso não inicie, rode novamente o comando "docker-compose up -d", pode haver conflitos)
-
 # Teste
 >  npm test
 
