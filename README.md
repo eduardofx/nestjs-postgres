@@ -1,6 +1,4 @@
-
-Backend
-> Nestjs + Sequelize-Typescript + Postgresql + Swagger + Jest
+# Nestjs + Sequelize-Typescript + Postgresql + Swagger + Jest
 
 
 ## Execução
