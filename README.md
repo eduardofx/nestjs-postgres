@@ -19,7 +19,6 @@ http://localhost:3000/documentation/
 
 ![Panel](https://i.ibb.co/yXQBZnm/Sem-t-tulo.jpg)
 
-Registre via post ou swagger
 
 http://localhot:3000/users/register
 ```
