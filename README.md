@@ -1,15 +1,6 @@
 #### Nestjs + Sequelize-Typescript + Postgresql + Swagger + Jest
 _______
 
-##### Execução
-
-``` docker-compose build ```
-
-``` docker-compose up -d ```
-
-#####  Teste
-```  npm test ```
-
 Documentação
 
 http://localhost:3000/documentation/
