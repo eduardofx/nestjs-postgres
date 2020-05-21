@@ -1,29 +1,25 @@
+#### Nestjs + Sequelize-Typescript + Postgresql + Swagger + Jest
+_______
 
-Backend
-> Nestjs + Sequelize-Typescript + Postgresql + Swagger + Jest
+##### Execução
 
+``` docker-compose build ```
 
-## Execução
+``` docker-compose up -d ```
 
-> docker-compose build
-
-> docker-compose up -d
-
-(Caso não inicie, rode novamente o comando "docker-compose up -d", pode haver conflitos)
-
-# Teste
->  npm test
+#####  Teste
+```  npm test ```
 
 Documentação
 
 http://localhost:3000/documentation/
 
 
-![Panel](https://i.ibb.co/yXQBZnm/Sem-t-tulo.jpg)
+![Panel](https://i.ibb.co/tYZjZJ3/2020-05-20-21-44-24-Swagger-UI.png)
 
-Registre via post ou swagger
 
 http://localhot:3000/users/register
+
 ```
 {
   "email": "eduardok.fx@gmail.com",
@@ -33,4 +29,3 @@ http://localhot:3000/users/register
   "gender": "male",
   "birthday": "1989-06-30"
 }
-```
