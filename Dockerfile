@@ -1,8 +1,16 @@
-FROM node
-WORKDIR /usr/src/app
+FROM node:13
 
-COPY . .
+USER node
 
-RUN npm install -g typescript && npm install && npm run build
+RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
+
+WORKDIR /home/node/app
+
+COPY --chown=node:node . .
+
+RUN npm install
+RUN npm run build
+
 EXPOSE 3000
-CMD ["npm", "start"]
+
+CMD [ "npm", "start" ]
