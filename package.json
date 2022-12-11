@@ -25,7 +25,7 @@
         "@nestjs/common": "^6.0.0",
         "@nestjs/core": "^6.0.0",
         "@nestjs/passport": "^6.0.0",
-        "@nestjs/platform-express": "^6.0.0",
+        "@nestjs/platform-express": "^6.11.11",
         "@nestjs/swagger": "^3.0.2",
         "@types/bcrypt": "^3.0.0",
         "@types/jsonwebtoken": "^8.3.2",
